@@ -150,7 +150,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd math_magicians
+  cd space_travelers_hub
   npm install
 ```
 
