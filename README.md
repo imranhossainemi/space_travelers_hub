@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="200w.gif" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>The Space Travelers' Hub</b></h3>
 
 </div>
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [The Space Travelers' Hub] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+
+**[The Space Travelers' Hub]** is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,7 +78,7 @@ After you're finished please remove all the comments and instructions!
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
-
+<!-- 
 <details>
   <summary>Server</summary>
   <ul>
@@ -91,17 +91,20 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Rockets /Dragons]**
+The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking.
+- **[Missions]**
+The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
+- **[My Profile]**
+The My Profile section displays all reserved rockets and space missions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +112,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> 
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +122,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> D
 
 To get a local copy up and running, follow these steps.
 
@@ -127,75 +130,53 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
 ```sh
- gem install rails
+  Visual Studio Code
+  Internet
+  Node.js
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/imranhossainemi/space_travelers_hub.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  cd math_magicians
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
 ```sh
-
+  npm run build
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,20 +188,20 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@imranhossainemi](https://github.com/imranhossainemi)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@byiringiroscar](https://github.com/byiringiroscar)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
+<!-- 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
@@ -229,7 +210,7 @@ Example:
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
@@ -245,9 +226,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project Follow and give Star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,14 +236,14 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> 
 
-I would like to thank...
+I would like to thank Oscar Byiringiro 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
+<!-- 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
@@ -275,7 +256,7 @@ I would like to thank...
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
