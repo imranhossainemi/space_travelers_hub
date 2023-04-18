@@ -39,15 +39,10 @@ header {
 }
 
 .nav-links a {
-  text-decoration: none;
   color: #2a91ff;
   font-size: 18px;
   font-weight: 400;
-  transition: 0.5s;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
+  transition: 1s;
 }
 
 .divider {
@@ -58,3 +53,8 @@ header {
 .divider hr {
   border: 0.5px solid gray;
 }
+.active-nav{
+    text-decoration: underline;
+    color: #2a91ff;
+}
+
