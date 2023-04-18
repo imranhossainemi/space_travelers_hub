@@ -53,8 +53,8 @@ header {
 .divider hr {
   border: 0.5px solid gray;
 }
-.active-nav{
-    text-decoration: underline;
-    color: #2a91ff;
-}
 
+.active-nav {
+  text-decoration: underline;
+  color: #2a91ff;
+}
