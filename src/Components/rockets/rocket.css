@@ -4,25 +4,29 @@
   width: 100%;
   height: auto;
 }
-.loader{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.loader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.error{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
+
+.error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
-.single-error{
-    color: rgb(129, 55, 55);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+
+.single-error {
+  color: rgb(129, 55, 55);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
 }
+
 .card-container {
   display: flex;
   flex-direction: column;
