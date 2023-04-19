@@ -19,7 +19,6 @@ const Missions = () => {
             <th className="small-column">Mission</th>
             <th className="big-column">Description</th>
             <th className="small-column">Status</th>
-            <th className="small-column"></th>
           </tr>
           {missions.map((mission) => (
             <MissionItems
