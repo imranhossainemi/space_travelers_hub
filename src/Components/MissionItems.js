@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleJoinMission } from '../Features/Missions/missionsSlice';
@@ -5,7 +7,7 @@ import { toggleJoinMission } from '../Features/Missions/missionsSlice';
 const MissionItems = (props) => {
   const dispatch = useDispatch();
   const joinMission = useSelector(
-    (state) => state.mission.joinMission[props.id]
+    (state) => state.mission.joinMission[props.id],
   );
 
   const handleJoinMission = (missionId) => {
