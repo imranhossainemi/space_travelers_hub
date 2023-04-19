@@ -45,6 +45,18 @@
     cursor: pointer;
     border-radius: 2px;
 }
+.cancel-reservation{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border: 0.5px solid gray;
+    color: #212529;;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
 .card-title{
     color: #212529;
     font-family: 'Poppins', sans-serif;

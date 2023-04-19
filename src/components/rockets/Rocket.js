@@ -5,11 +5,11 @@ import Card from './Card';
 import { fetchRockets } from '../../Features/Rockets/rocketsSlice';
 
 const Rocket = () => {
+  const { rockets } = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchRockets());
   }, [dispatch]);
-  const { rockets } = useSelector((state) => state.rockets);
   return (
     <section className="rocket">
       <div className="card-container">
@@ -20,6 +20,7 @@ const Rocket = () => {
             id={item.id}
             description={item.description}
             image={item.flickr_images[0]}
+            reserve={item.reserve}
           />
         ))}
       </div>
