@@ -17,7 +17,11 @@ const Card = (prop) => {
       </div>
       <div className="card-content">
         <h2 className="card-title">{name}</h2>
-        <p className="card-text">{description}</p>
+        <p className="card-text">
+          {reserve ? <span className="reserved">Reserved</span> : ''}
+          {' '}
+          {description}
+        </p>
         {reserve ? <button className="cancel-reservation" type="button" onClick={() => handleClick(id)}>Cancel Reservation</button> : <button id={id} onClick={() => handleClick(id)} className="card-button" type="button">Reserve Rocket</button>}
       </div>
     </div>

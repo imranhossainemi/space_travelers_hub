@@ -57,6 +57,13 @@
     border-radius: 3px;
 }
 
+.reserved{
+    color: white;
+    background-color: rgb(24,162,184);
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 10px;
+}
 .card-title{
     color: #212529;
     font-family: 'Poppins', sans-serif;
