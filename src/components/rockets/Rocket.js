@@ -6,8 +6,7 @@ import { fetchRockets } from '../../Features/Rockets/rocketsSlice';
 import loading from '../../images/loading.gif';
 
 const Rocket = () => {
-  const { rockets, isLoading } = useSelector((state) => state.rockets);
-  console.log('isLoading:', isLoading);
+  const { rockets, isLoading, hasError } = useSelector((state) => state.rockets);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchRockets());
@@ -16,6 +15,13 @@ const Rocket = () => {
     return (
       <div className="loader">
         <img src={loading} alt="loading" />
+      </div>
+    );
+  }
+  if (hasError) {
+    return (
+      <div className="error">
+        <p className="single-error">Oops, something went wrong!</p>
       </div>
     );
   }
