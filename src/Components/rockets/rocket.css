@@ -4,7 +4,13 @@
   width: 100%;
   height: auto;
 }
-
+.loader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-container {
   display: flex;
   flex-direction: column;

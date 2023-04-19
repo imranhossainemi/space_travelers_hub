@@ -3,13 +3,22 @@ import { useSelector, useDispatch } from 'react-redux';
 import './rocket.css';
 import Card from './Card';
 import { fetchRockets } from '../../Features/Rockets/rocketsSlice';
+import loading from '../../images/loading.gif';
 
 const Rocket = () => {
-  const { rockets } = useSelector((state) => state.rockets);
+  const { rockets, isLoading } = useSelector((state) => state.rockets);
+  console.log('isLoading:', isLoading);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchRockets());
   }, [dispatch]);
+  if (isLoading) {
+    return (
+      <div className="loader">
+        <img src={loading} alt="loading" />
+      </div>
+    );
+  }
   return (
     <section className="rocket">
       <div className="card-container">

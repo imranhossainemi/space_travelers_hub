@@ -1,17 +1,18 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// const url = 'https://api.spacexdata.com/v4/rockets';
+const url = 'https://api.spacexdata.com/v4/rockets';
 
 const initialState = {
   rockets: [],
   isLoading: false,
+  hasError: false,
 
 };
 
 export const fetchRockets = createAsyncThunk('rockets/fetchRockets', async (thunkAPI) => {
   try {
-    const response = await axios('https://api.spacexdata.com/v4/rockets');
+    const response = await axios(url);
     return response.data;
   } catch (error) {
     return thunkAPI.rejectWithValue('something went wrong');
@@ -47,6 +48,7 @@ const rocketsSlice = createSlice({
     });
     builder.addCase(fetchRockets.rejected, (state) => {
       state.isLoading = false;
+      state.hasError = true;
     });
   },
 
