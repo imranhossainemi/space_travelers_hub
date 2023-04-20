@@ -1,16 +1,11 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import Card from './Card'; // eslint-disable-line import/extensions
 import './rocket.css';
-import { fetchRockets } from '../../Features/Rockets/rocketsSlice';
 import loading from '../../images/loading.gif';
 
 const Rocket = () => {
   const { rockets, isLoading, hasError } = useSelector((state) => state.rockets);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchRockets());
-  }, [dispatch]);
   if (isLoading) {
     return (
       <div className="loader">
