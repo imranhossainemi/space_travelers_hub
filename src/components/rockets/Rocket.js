@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import Card from './Card';
+import Card from './Card'; // eslint-disable-line import/extensions
 import './rocket.css';
 import { fetchRockets } from '../../Features/Rockets/rocketsSlice';
 import loading from '../../images/loading.gif';
