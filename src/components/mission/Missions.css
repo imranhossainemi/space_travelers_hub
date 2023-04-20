@@ -1,0 +1,84 @@
+.table_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.table {
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+.big-column {
+  width: 70%;
+}
+
+.small-column {
+  width: 10%;
+}
+
+.mission-name {
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+tr {
+  border-top: 1px solid black;
+}
+
+th,
+td {
+  padding: 0.5%;
+  border-right: 1px solid #c0c0c0;
+}
+
+td {
+  border-top: 1px solid #c0c0c0;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.membership-status {
+  color: #fff;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.notMember {
+  background-color: #adadad;
+}
+
+.activeMember {
+  background-color: #1f51ff;
+}
+
+.joinMission-action {
+  border: 1px solid #adadad;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.joinMission-action:hover {
+  background-color: #c0c0c0;
+}
+
+.joinMission {
+  color: black;
+}
+
+.leaveMission {
+  border: 1px solid #f00;
+  color: #f00;
+}
+
+.action {
+  color: white;
+}
