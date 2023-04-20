@@ -1,11 +1,10 @@
 import React from 'react';
-import Missions from '../mission/Mission';
+import MissionJoin from '../mission/MissionJoin';
 
 const Profile = () => (
-  <>
-    <div>Profile</div>
-    <Missions />
-  </>
+  <div className="main-container">
+    <MissionJoin />
+  </div>
 );
 
 export default Profile;
