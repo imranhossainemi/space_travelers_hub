@@ -1,8 +1,8 @@
-import './Missions.css';
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getMissionsAsync } from '../../Features/Missions/missionsSlice';
-import MissionItems from './MissionItems';
+import MissionItem from './MissionItems';
+import './Missions.css';
 
 const Missions = () => {
   const dispatch = useDispatch();
@@ -20,9 +20,10 @@ const Missions = () => {
             <th className="small-column">Mission</th>
             <th className="big-column">Description</th>
             <th className="small-column">Status</th>
+            <th className="small-column action">Action</th>
           </tr>
           {missions.map((mission) => (
-            <MissionItems
+            <MissionItem
               key={mission.mission_id}
               id={mission.mission_id}
               name={mission.mission_name}
