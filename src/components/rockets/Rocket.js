@@ -1,3 +1,4 @@
+/* eslint-disable import/no-useless-path-segments */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Card from './Card';
