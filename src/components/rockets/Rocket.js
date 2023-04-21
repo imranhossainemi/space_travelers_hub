@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+// eslint-disable-next-line import/extensions
 import Card from './Card';
 import './rocket.css';
 import loading from '../../images/loading.gif';

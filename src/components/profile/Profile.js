@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line import/extensions
 import ProfileRocket from './ProfileRocket';
 import MissionJoin from '../mission/MissionJoin';
 import './Profile.css';
