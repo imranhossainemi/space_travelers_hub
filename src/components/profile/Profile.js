@@ -1,6 +1,6 @@
 /* eslint-disable import/no-useless-path-segments */
 import React from 'react';
-import ProfileRocket from './ProfileRocket';
+import ProfileRocket from '../../components/profile/ProfileRocket';
 import MissionJoin from '../mission/MissionJoin';
 import './Profile.css';
 
