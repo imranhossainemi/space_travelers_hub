@@ -1,7 +1,7 @@
 /* eslint-disable import/no-useless-path-segments */
 import React from 'react';
 import { useSelector } from 'react-redux';
-import Card from '../../components/rockets/Card';
+import Card from './Card';
 import './rocket.css';
 import loading from '../../images/loading.gif';
 
