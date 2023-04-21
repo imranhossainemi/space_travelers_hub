@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { reserveRocket } from '../../Features/Rockets/rocketsSlice';
+import { reserveRocket } from '../Features/Rockets/rocketsSlice';
 
 const Card = (prop) => {
   const {

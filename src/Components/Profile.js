@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileRocket from './ProfileRocket';
-import MissionJoin from '../mission/MissionJoin';
+import MissionJoin from './MissionJoin';
 import './Profile.css';
 
 const Profile = () => (
