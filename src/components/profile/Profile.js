@@ -1,7 +1,7 @@
 import React from 'react';
 import MissionJoin from '../mission/MissionJoin';
 import './Profile.css';
-import ProfileRocket from './ProfileRocket'; // eslint-disable-line import/extensions
+import ProfileRocket from '../../Components/profile/ProfileRocket';
 
 const Profile = () => (
   <div className="main-container">
