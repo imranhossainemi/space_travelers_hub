@@ -1,7 +1,7 @@
 import React from 'react';
+import ProfileRocket from './ProfileRocket';
 import MissionJoin from '../mission/MissionJoin';
 import './Profile.css';
-import ProfileRocket from './ProfileRocket';
 
 const Profile = () => (
   <div className="main-container">
