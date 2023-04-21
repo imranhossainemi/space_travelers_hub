@@ -1,18 +1,18 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
-import Navbar from '../Components/header/Header';
+import Header from '../Components/header/Header';
 
 it('test navbar render', () => {
   render(
     <Router>
-      <Navbar />
+      <Header />
     </Router>,
   );
   const tree = renderer
     .create(
       <Router>
-        <Navbar />
+        <Header />
       </Router>,
     )
     .toJSON();
