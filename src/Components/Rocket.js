@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import Card from '../../Components/rockets/Card';
+import Card from './Card';
 import './rocket.css';
-import loading from '../../images/loading.gif';
+import loading from '../images/loading.gif';
 
 const Rocket = () => {
   const { rockets, isLoading, hasError } = useSelector((state) => state.rockets);

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
-import logo from './planet.png';
+import logo from '../images/planet.png';
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('rockets');

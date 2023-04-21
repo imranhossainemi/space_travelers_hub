@@ -62,8 +62,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [The Space Travelers' Hub] <a name="about-project"></a>
 
-
-
 **[The Space Travelers' Hub]** is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. The Space Travelers' Hub consists of Rockets, Missions, and the My Profile section.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -97,14 +95,14 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> 
+>
 
 - **[Rockets /Dragons]**
-The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking.
+  The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking.
 - **[Missions]**
-The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
+  The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
 - **[My Profile]**
-The My Profile section displays all reserved rockets and space missions.
+  The My Profile section displays all reserved rockets and space missions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +110,7 @@ The My Profile section displays all reserved rockets and space missions.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> 
+>
 
 - [Live Demo Link](#)
 
@@ -201,7 +199,7 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-<!-- 
+<!--
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
@@ -226,8 +224,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
 If you like this project Follow and give Star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,14 +232,14 @@ If you like this project Follow and give Star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> 
+>
 
-I would like to thank Oscar Byiringiro 
+I would like to thank Oscar Byiringiro
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-<!-- 
+<!--
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
@@ -262,8 +258,6 @@ I would like to thank Oscar Byiringiro
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/imranhossainemi/space_travelers_hub/blob/master/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getMissionsAsync } from '../../Features/Missions/missionsSlice';
-import MissionItem from './MissionItems';
+import { getMissionsAsync } from '../Features/Missions/missionsSlice';
+import MissionItems from './MissionItems';
 import './Missions.css';
 
 const Missions = () => {
@@ -23,7 +23,7 @@ const Missions = () => {
             <th className="small-column action">Action</th>
           </tr>
           {missions.map((mission) => (
-            <MissionItem
+            <MissionItems
               key={mission.mission_id}
               id={mission.mission_id}
               name={mission.mission_name}
