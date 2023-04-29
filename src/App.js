@@ -17,9 +17,9 @@ function App() {
     <div className="container">
       <Header />
       <Routes>
-        <Route path="/" element={<Rocket />} />
-        <Route path="/missions" element={<Missions />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/space_travelers_hub/" element={<Rocket />} />
+        <Route path="/space_travelers_hub/missions" element={<Missions />} />
+        <Route path="/space_travelers_hub/profile" element={<Profile />} />
       </Routes>
     </div>
   );

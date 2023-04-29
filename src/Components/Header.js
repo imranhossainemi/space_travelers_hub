@@ -13,23 +13,23 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <Link className="main-logo" to="/">
+        <Link className="main-logo" to="/space_travelers_hub/">
           <img className="logo" src={logo} alt="Space Logo" />
           <h3 className="logo-title">Space Travelers&rsquo; Hub</h3>
         </Link>
         <ul className="nav-links">
           <li className={`nav-link ${activeLink === 'rockets' ? 'active-nav' : ''}`}>
-            <Link to="/" onClick={() => handleClick('rockets')}>
+            <Link to="/space_travelers_hub/" onClick={() => handleClick('rockets')}>
               ROCKETS
             </Link>
           </li>
           <li className={`nav-link ${activeLink === 'missions' ? 'active-nav' : ''}`}>
-            <Link to="/missions" onClick={() => handleClick('missions')}>
+            <Link to="/space_travelers_hub/missions" onClick={() => handleClick('missions')}>
               MISSIONS
             </Link>
           </li>
           <li className={`nav-link ${activeLink === 'profile' ? 'active-nav' : ''}`}>
-            <Link to="/profile" onClick={() => handleClick('profile')}>
+            <Link to="/space_travelers_hub/profile" onClick={() => handleClick('profile')}>
               MY PROFILE
             </Link>
           </li>
