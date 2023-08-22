@@ -35,18 +35,21 @@ header {
 }
 
 .logo-title {
-  color: #212529;
+  color: hsl(0, 0%, 0%);
   font-size: 26px;
 }
 
-.nav-links a {
-  color: #2a91ff;
+.nav-link {
+  padding-bottom: 10px;
+}
+
+.nav-link a {
+  color: hsl(211, 99%, 58%);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 800;
   transition: 1s;
 }
 
 .active-nav {
-  text-decoration: underline;
-  color: #2a91ff;
+  border-bottom: 1px solid hsl(211, 100%, 58%);
 }
