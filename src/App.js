@@ -14,14 +14,16 @@ function App() {
     dispatch(fetchRockets());
   }, [dispatch]);
   return (
-    <div className="container">
+    <>
       <Header />
-      <Routes>
-        <Route path="/space_travelers_hub/" element={<Rocket />} />
-        <Route path="/space_travelers_hub/missions" element={<Missions />} />
-        <Route path="/space_travelers_hub/profile" element={<Profile />} />
-      </Routes>
-    </div>
+      <main className="container">
+        <Routes>
+          <Route path="/space_travelers_hub/" element={<Rocket />} />
+          <Route path="/space_travelers_hub/missions" element={<Missions />} />
+          <Route path="/space_travelers_hub/profile" element={<Profile />} />
+        </Routes>
+      </main>
+    </>
   );
 }
 
