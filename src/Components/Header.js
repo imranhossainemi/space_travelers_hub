@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <Link className="main-logo" to="/space_travelers_hub/">
         <img className="logo" src={logo} alt="Space Logo" />
-        <h3 className="logo-title">Space Travelers&rsquo; Hub</h3>
+        <h1 className="logo-title">Space Travelers&rsquo; Hub</h1>
       </Link>
       <ul className="nav-links">
         <li className={`nav-link ${activeLink === 'rockets' ? 'active-nav' : ''}`}>
