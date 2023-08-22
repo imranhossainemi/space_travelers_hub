@@ -13,7 +13,7 @@ const Card = (prop) => {
   return (
     <div className={reserve ? 'card card-reserved' : 'card'}>
       <div className="card-image">
-        <img src={image} alt={name} />
+        <img src={image} alt={`${name} imagee`} />
       </div>
       <div className="card-content">
         <h2 className="card-title">
