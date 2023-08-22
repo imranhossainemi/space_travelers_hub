@@ -72,13 +72,13 @@
 .card-button {
   width: 120px;
   height: 35px;
-  background-color: #007bff;
-  border: solid #007bff;
+  background-color: hsl(211, 100%, 34%);
+  border: 2px solid #007bff;
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .cancel-reservation {
