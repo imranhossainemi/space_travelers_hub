@@ -5,8 +5,8 @@ import './Profile.css';
 
 const Profile = () => (
   <div className="main-container">
-    <MissionJoin />
     <ProfileRocket />
+    <MissionJoin />
   </div>
 );
 
