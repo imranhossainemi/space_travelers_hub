@@ -4,19 +4,8 @@
   flex-direction: column;
 }
 
-.joined-missions-list {
-  list-style: none;
-  margin: 2% 0;
-  border: 1px solid #d3d3d3;
-  border-radius: 8px;
-}
-
 li {
-  padding-left: 10px !important;
-}
-
-li:first-child {
-  border-top: none;
+  padding: 20px 0 !important;
 }
 
 .list-item {
