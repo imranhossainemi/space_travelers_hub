@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ProfileRocket from './ProfileRocket';
 import MissionJoin from './MissionJoin';
-import './Profile.css';
+import '../Styles/Profile.css';
 
 const Profile = () => {
   useEffect(() => {
