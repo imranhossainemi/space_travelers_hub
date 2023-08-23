@@ -1,24 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
 import logo from '../images/planet.png';
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState('rockets');
+  const [activeLink, setActiveLink] = useState();
 
+  useEffect(() => {
+    const { pathname } = window.location;
+    if (pathname === '/space_travelers_hub/') {
+      setActiveLink('rockets');
+    } else if (pathname === '/space_travelers_hub/missions') {
+      setActiveLink('missions');
+    } else if (pathname === '/space_travelers_hub/profile') {
+      setActiveLink('profile');
+    }
+  }, []);
   const handleClick = (link) => {
     setActiveLink(link);
   };
 
   return (
     <header className="header">
-      <Link className="main-logo" to="/space_travelers_hub/">
+      <div className="main-logo">
         <img className="logo" src={logo} alt="Space Logo" />
         <h1 className="logo-title">Space Travelers&rsquo; Hub</h1>
-      </Link>
+      </div>
       <ul className="nav-links">
         <li className={`nav-link ${activeLink === 'rockets' ? 'active-nav' : ''}`}>
-          <Link to="/space_travelers_hub/" onClick={() => handleClick('rockets')}>
+          <Link to="/space_travelers_hub/" onClick={() => handleClick('rockets')} alt="rockets">
             ROCKETS
           </Link>
         </li>
