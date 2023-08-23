@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './MissionJoin.css';
+import '../Styles/MissionJoin.css';
 
 const MissionJoin = () => {
   const joinedMissions = useSelector((state) => {
