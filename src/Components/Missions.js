@@ -12,6 +12,10 @@ const Missions = () => {
     dispatch(getMissionsAsync());
   }, [dispatch]);
 
+  useEffect(() => {
+    document.title = 'Missions';
+  }, []);
+
   return (
     <div className="table_container">
       <table className="table">
