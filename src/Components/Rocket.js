@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Card from './Card';
 import './rocket.css';
 import loading from '../images/loading.gif';
 
 const Rocket = () => {
+  useEffect(() => {
+    document.title = 'Rockets';
+  }, []);
   const { rockets, isLoading, hasError } = useSelector((state) => state.rockets);
   if (isLoading) {
     return (
