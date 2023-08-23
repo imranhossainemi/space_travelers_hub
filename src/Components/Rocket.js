@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import Card from './Card';
-import './rocket.css';
+import '../Styles/rocket.css';
 import loading from '../images/loading.gif';
 
 const Rocket = () => {
