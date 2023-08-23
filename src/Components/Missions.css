@@ -77,8 +77,8 @@ tr:nth-child(even) {
 }
 
 .leaveMission {
-  border: 1px solid #f00;
-  color: #f00;
+  border: 1px solid hsl(0, 100%, 50%);
+  color: hsl(0, 100%, 30%);
 }
 
 .action {
