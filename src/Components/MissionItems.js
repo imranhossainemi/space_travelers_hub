@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleJoinMission } from '../Features/Missions/missionsSlice';
-import './Missions.css';
+import '../Styles/Missions.css';
 
 const MissionItems = ({ id, name, description }) => {
   const dispatch = useDispatch();

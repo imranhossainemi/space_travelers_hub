@@ -6,8 +6,7 @@ const ProfileRocket = () => {
   const reservedRockets = rockets.filter((rocket) => rocket.reserve === true);
   return (
     <div className="rokect-reserved">
-      <h1>Profile</h1>
-      <hr className="divider-rocket" />
+      <h2>Rocket Reserved</h2>
       <div className="rocket-reserved-container">
         <ul className="joined-missions-list">
           {reservedRockets.map((rocket) => <li key={rocket.id} className="list-item">{rocket.name}</li>)}

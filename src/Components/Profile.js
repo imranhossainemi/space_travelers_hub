@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProfileRocket from './ProfileRocket';
 import MissionJoin from './MissionJoin';
-import './Profile.css';
+import '../Styles/Profile.css';
 
-const Profile = () => (
-  <div className="main-container">
-    <MissionJoin />
-    <ProfileRocket />
-  </div>
-);
+const Profile = () => {
+  useEffect(() => {
+    document.title = 'Profile';
+  }, []);
+
+  return (
+    <div className="main-container">
+      <ProfileRocket />
+      <MissionJoin />
+    </div>
+  );
+};
 
 export default Profile;

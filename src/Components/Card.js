@@ -11,15 +11,16 @@ const Card = (prop) => {
     dispatch(reserveRocket(id));
   };
   return (
-    <div className="card">
+    <div className={reserve ? 'card card-reserved' : 'card'}>
       <div className="card-image">
-        <img src={image} alt="Falcon 1" />
+        <img src={image} alt={`${name} imagee`} />
       </div>
       <div className="card-content">
-        <h2 className="card-title">{name}</h2>
-        <p className="card-text">
+        <h2 className="card-title">
+          {name}
           {reserve ? <span className="reserved">Reserved</span> : ''}
-          {' '}
+        </h2>
+        <p className="card-text">
           {description}
         </p>
         {reserve ? <button className="cancel-reservation" type="button" onClick={() => handleClick(id)}>Cancel Reservation</button> : <button id={id} onClick={() => handleClick(id)} className="card-button" type="button">Reserve Rocket</button>}
