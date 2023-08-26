@@ -8,7 +8,7 @@ const Header = () => {
 
   useEffect(() => {
     const { pathname } = window.location;
-    if (pathname === '/space_travelers_hub/') {
+    if (pathname === '/space_travelers_hub') {
       setActiveLink('rockets');
     } else if (pathname === '/space_travelers_hub/missions') {
       setActiveLink('missions');
@@ -16,6 +16,7 @@ const Header = () => {
       setActiveLink('profile');
     }
   }, []);
+
   const handleClick = (link) => {
     setActiveLink(link);
   };
@@ -24,7 +25,7 @@ const Header = () => {
     <header className="header">
       <div className="main-logo">
         <img className="logo" src={logo} alt="Space Logo" />
-        <h1 className="logo-title">Space Travelers&rsquo; Hub</h1>
+        <p className="logo-title">Space Travelers&rsquo; Hub</p>
       </div>
       <ul className="nav-links">
         <li className={`nav-link ${activeLink === 'rockets' ? 'active-nav' : ''}`}>

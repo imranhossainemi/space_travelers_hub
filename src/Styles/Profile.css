@@ -30,3 +30,11 @@
 .joined-missions-list > li:nth-child(even) {
   background-color: hsl(0, 0%, 84%);
 }
+
+@media screen and (max-width: 890px) {
+  .main-container {
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    align-items: center;
+  }
+}
