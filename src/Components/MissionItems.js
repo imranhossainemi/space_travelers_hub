@@ -25,9 +25,9 @@ const MissionItems = ({ id, name, description }) => {
       <td className="mission-name">{name}</td>
       <td>{description}</td>
       <td>
-        <span className={`membership-status ${membershipStatusClassName}`}>
+        <button disabled type="button" className={`membership-status ${membershipStatusClassName}`}>
           {joinMission ? 'Active Member' : 'NOT A MEMBER'}
-        </span>
+        </button>
       </td>
       <td>
         <button
