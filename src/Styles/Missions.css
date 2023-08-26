@@ -1,5 +1,5 @@
 .table_container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ tr:nth-child(even) {
 .joinMission-action {
   color: hsl(0, 0%, 0%);
   border: none;
-  padding: 10px 5px;
+  padding: 10px 15px;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -73,12 +73,14 @@ tr:nth-child(even) {
 }
 
 .joinMission {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(120, 96%, 22%);
 }
 
 .leaveMission {
-  border: 1px solid hsl(0, 100%, 50%);
-  color: hsl(0, 100%, 30%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 93%, 35%);
 }
 
 .action {
